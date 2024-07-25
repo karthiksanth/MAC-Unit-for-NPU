@@ -1,0 +1,73 @@
+$date
+	Tue Jul 23 15:32:30 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module Booth_Radix_Table_tb $end
+$var wire 1 ! Zero $end
+$var wire 1 " Shift $end
+$var wire 1 # Negation $end
+$var reg 3 $ In [2:0] $end
+$scope module uup $end
+$var wire 3 % In [2:0] $end
+$var wire 1 # Negation $end
+$var wire 1 ! Zero $end
+$var wire 1 " Shift $end
+$upscope $end
+$scope begin $ivl_for_loop0 $end
+$var integer 32 & i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 &
+b0 %
+b0 $
+0#
+0"
+1!
+$end
+#20
+0!
+b1 $
+b1 %
+b1 &
+#40
+b10 $
+b10 %
+b10 &
+#60
+1"
+b11 $
+b11 %
+b11 &
+#80
+1#
+b100 $
+b100 %
+b100 &
+#100
+0"
+b101 $
+b101 %
+b101 &
+#120
+b110 $
+b110 %
+b110 &
+#140
+1!
+0#
+b111 $
+b111 %
+b111 &
+#160
+b1000 &

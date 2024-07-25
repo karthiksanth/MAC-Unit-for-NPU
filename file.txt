@@ -1,0 +1,2 @@
+Booth_Radix_Table.v
+-y /Test_Bench/Booth_Radix_Table_tb.v
