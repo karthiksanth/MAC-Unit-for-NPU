@@ -1,0 +1,49 @@
+{
+   "creator": "Yosys 0.42+2 (git sha1 82783646e, g++ 13.2.0-23ubuntu4 -fPIC -Os)",
+   "invocation": "stat -liberty \"lib/sky130.lib\" -json ",
+   "modules": {
+      "\\Multiplier_Sub_Module": {
+         "num_wires":         58,
+         "num_wire_bits":     69,
+         "num_pub_wires":     7,
+         "num_pub_wire_bits": 18,
+         "num_ports":         6,
+         "num_port_bits":     16,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         12,
+         "area":              125.120000,
+         "num_cells_by_type": {
+            "sky130_fd_sc_hd__a21oi_1": 2,
+            "sky130_fd_sc_hd__mux4_2": 3,
+            "sky130_fd_sc_hd__nand3_1": 1,
+            "sky130_fd_sc_hd__nand3b_1": 2,
+            "sky130_fd_sc_hd__nor2b_1": 3,
+            "sky130_fd_sc_hd__or3b_1": 1
+         }
+      }
+   },
+      "design": {
+         "num_wires":         58,
+         "num_wire_bits":     69,
+         "num_pub_wires":     7,
+         "num_pub_wire_bits": 18,
+         "num_ports":         6,
+         "num_port_bits":     16,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         12,
+         "area":              125.120000,
+         "num_cells_by_type": {
+            "sky130_fd_sc_hd__a21oi_1": 2,
+            "sky130_fd_sc_hd__mux4_2": 3,
+            "sky130_fd_sc_hd__nand3_1": 1,
+            "sky130_fd_sc_hd__nand3b_1": 2,
+            "sky130_fd_sc_hd__nor2b_1": 3,
+            "sky130_fd_sc_hd__or3b_1": 1
+         }
+      }
+}
+
