@@ -1,0 +1,45 @@
+{
+   "creator": "Yosys 0.42+2 (git sha1 82783646e, g++ 13.2.0-23ubuntu4 -fPIC -Os)",
+   "invocation": "stat -liberty \"lib/sky130.lib\" -json ",
+   "modules": {
+      "\\Booth_Radix_Table": {
+         "num_wires":         21,
+         "num_wire_bits":     23,
+         "num_pub_wires":     4,
+         "num_pub_wire_bits": 6,
+         "num_ports":         4,
+         "num_port_bits":     6,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         6,
+         "area":              32.531200,
+         "num_cells_by_type": {
+            "sky130_fd_sc_hd__a21boi_0": 1,
+            "sky130_fd_sc_hd__a21oi_1": 3,
+            "sky130_fd_sc_hd__clkinv_1": 1,
+            "sky130_fd_sc_hd__or2_0": 1
+         }
+      }
+   },
+      "design": {
+         "num_wires":         21,
+         "num_wire_bits":     23,
+         "num_pub_wires":     4,
+         "num_pub_wire_bits": 6,
+         "num_ports":         4,
+         "num_port_bits":     6,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         6,
+         "area":              32.531200,
+         "num_cells_by_type": {
+            "sky130_fd_sc_hd__a21boi_0": 1,
+            "sky130_fd_sc_hd__a21oi_1": 3,
+            "sky130_fd_sc_hd__clkinv_1": 1,
+            "sky130_fd_sc_hd__or2_0": 1
+         }
+      }
+}
+

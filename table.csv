@@ -1,0 +1,105 @@
+Multiplier_Sub_Module	Multiplicant	-	-	pi	\Multiplicant
+Multiplier_Sub_Module	Negation	-	-	pi	\Negation
+Multiplier_Sub_Module	Result	-	-	po	{ $abc$320$Result[4] $abc$320$Result[3] $abc$320$Result[2] $abc$320$Result[1] $abc$320$Result[0] }
+Multiplier_Sub_Module	Shift	-	-	pi	\Shift
+Multiplier_Sub_Module	Zero	-	-	pi	\Zero
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$321	sky130_fd_sc_hd__nor3b_1	A	in	\Zero
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$321	sky130_fd_sc_hd__nor3b_1	B	in	\Shift
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$321	sky130_fd_sc_hd__nor3b_1	C_N	in	\Multiplicant [0]
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$321	sky130_fd_sc_hd__nor3b_1	Y	out	$abc$320$Result[0]
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$322	sky130_fd_sc_hd__nand2b_1	A_N	in	\Shift
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$322	sky130_fd_sc_hd__nand2b_1	B	in	\Multiplicant [1]
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$322	sky130_fd_sc_hd__nand2b_1	Y	out	$abc$320$new_n14
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$323	sky130_fd_sc_hd__nor2_1	A	in	\Negation
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$323	sky130_fd_sc_hd__nor2_1	B	in	\Shift
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$323	sky130_fd_sc_hd__nor2_1	Y	out	$abc$320$new_n15
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$324	sky130_fd_sc_hd__o21ai_0	A1	in	\Negation
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$324	sky130_fd_sc_hd__o21ai_0	A2	in	\Shift
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$324	sky130_fd_sc_hd__o21ai_0	B1	in	\Multiplicant [0]
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$324	sky130_fd_sc_hd__o21ai_0	Y	out	$abc$320$new_n16
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$325	sky130_fd_sc_hd__nor2b_1	A	in	\Shift
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$325	sky130_fd_sc_hd__nor2b_1	B_N	in	\Negation
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$325	sky130_fd_sc_hd__nor2b_1	Y	out	$abc$320$new_n17
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$326	sky130_fd_sc_hd__xnor2_1	A	in	$abc$320$new_n14
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$326	sky130_fd_sc_hd__xnor2_1	B	in	$abc$320$new_n16
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$326	sky130_fd_sc_hd__xnor2_1	Y	out	$abc$320$new_n18
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$327	sky130_fd_sc_hd__nor2_1	A	in	\Zero
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$327	sky130_fd_sc_hd__nor2_1	B	in	$abc$320$new_n18
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$327	sky130_fd_sc_hd__nor2_1	Y	out	$abc$320$Result[1]
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$328	sky130_fd_sc_hd__or3_1	A	in	\Multiplicant [0]
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$328	sky130_fd_sc_hd__or3_1	B	in	\Multiplicant [1]
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$328	sky130_fd_sc_hd__or3_1	C	in	\Multiplicant [2]
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$328	sky130_fd_sc_hd__or3_1	X	out	$abc$320$new_n20
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$329	sky130_fd_sc_hd__o21ai_0	A1	in	\Multiplicant [0]
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$329	sky130_fd_sc_hd__o21ai_0	A2	in	\Multiplicant [1]
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$329	sky130_fd_sc_hd__o21ai_0	B1	in	\Multiplicant [2]
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$329	sky130_fd_sc_hd__o21ai_0	Y	out	$abc$320$new_n21
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$330	sky130_fd_sc_hd__nand3_1	A	in	$abc$320$new_n17
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$330	sky130_fd_sc_hd__nand3_1	B	in	$abc$320$new_n20
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$330	sky130_fd_sc_hd__nand3_1	C	in	$abc$320$new_n21
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$330	sky130_fd_sc_hd__nand3_1	Y	out	$abc$320$new_n22
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$331	sky130_fd_sc_hd__xor2_1	A	in	\Multiplicant [0]
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$331	sky130_fd_sc_hd__xor2_1	B	in	\Multiplicant [1]
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$331	sky130_fd_sc_hd__xor2_1	X	out	$abc$320$new_n23
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$332	sky130_fd_sc_hd__nand3_1	A	in	\Negation
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$332	sky130_fd_sc_hd__nand3_1	B	in	\Shift
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$332	sky130_fd_sc_hd__nand3_1	C	in	$abc$320$new_n23
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$332	sky130_fd_sc_hd__nand3_1	Y	out	$abc$320$new_n24
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$333	sky130_fd_sc_hd__nor2b_1	A	in	\Negation
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$333	sky130_fd_sc_hd__nor2b_1	B_N	in	\Shift
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$333	sky130_fd_sc_hd__nor2b_1	Y	out	$abc$320$new_n25
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$334	sky130_fd_sc_hd__a22oi_1	A1	in	\Multiplicant [2]
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$334	sky130_fd_sc_hd__a22oi_1	A2	in	$abc$320$new_n15
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$334	sky130_fd_sc_hd__a22oi_1	B1	in	$abc$320$new_n25
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$334	sky130_fd_sc_hd__a22oi_1	B2	in	\Multiplicant [1]
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$334	sky130_fd_sc_hd__a22oi_1	Y	out	$abc$320$new_n26
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$335	sky130_fd_sc_hd__a31oi_1	A1	in	$abc$320$new_n22
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$335	sky130_fd_sc_hd__a31oi_1	A2	in	$abc$320$new_n24
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$335	sky130_fd_sc_hd__a31oi_1	A3	in	$abc$320$new_n26
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$335	sky130_fd_sc_hd__a31oi_1	B1	in	\Zero
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$335	sky130_fd_sc_hd__a31oi_1	Y	out	$abc$320$Result[2]
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$336	sky130_fd_sc_hd__or4_1	A	in	\Multiplicant [0]
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$336	sky130_fd_sc_hd__or4_1	B	in	\Multiplicant [1]
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$336	sky130_fd_sc_hd__or4_1	C	in	\Multiplicant [2]
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$336	sky130_fd_sc_hd__or4_1	D	in	\Multiplicant [3]
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$336	sky130_fd_sc_hd__or4_1	X	out	$abc$320$new_n28
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$337	sky130_fd_sc_hd__o31ai_1	A1	in	\Multiplicant [0]
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$337	sky130_fd_sc_hd__o31ai_1	A2	in	\Multiplicant [1]
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$337	sky130_fd_sc_hd__o31ai_1	A3	in	\Multiplicant [2]
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$337	sky130_fd_sc_hd__o31ai_1	B1	in	\Multiplicant [3]
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$337	sky130_fd_sc_hd__o31ai_1	Y	out	$abc$320$new_n29
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$338	sky130_fd_sc_hd__nand3_1	A	in	$abc$320$new_n17
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$338	sky130_fd_sc_hd__nand3_1	B	in	$abc$320$new_n28
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$338	sky130_fd_sc_hd__nand3_1	C	in	$abc$320$new_n29
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$338	sky130_fd_sc_hd__nand3_1	Y	out	$abc$320$new_n30
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$339	sky130_fd_sc_hd__nand4_1	A	in	\Negation
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$339	sky130_fd_sc_hd__nand4_1	B	in	\Shift
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$339	sky130_fd_sc_hd__nand4_1	C	in	$abc$320$new_n20
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$339	sky130_fd_sc_hd__nand4_1	D	in	$abc$320$new_n21
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$339	sky130_fd_sc_hd__nand4_1	Y	out	$abc$320$new_n31
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$340	sky130_fd_sc_hd__a22oi_1	A1	in	\Multiplicant [3]
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$340	sky130_fd_sc_hd__a22oi_1	A2	in	$abc$320$new_n15
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$340	sky130_fd_sc_hd__a22oi_1	B1	in	$abc$320$new_n25
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$340	sky130_fd_sc_hd__a22oi_1	B2	in	\Multiplicant [2]
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$340	sky130_fd_sc_hd__a22oi_1	Y	out	$abc$320$new_n32
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$341	sky130_fd_sc_hd__a31oi_1	A1	in	$abc$320$new_n30
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$341	sky130_fd_sc_hd__a31oi_1	A2	in	$abc$320$new_n31
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$341	sky130_fd_sc_hd__a31oi_1	A3	in	$abc$320$new_n32
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$341	sky130_fd_sc_hd__a31oi_1	B1	in	\Zero
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$341	sky130_fd_sc_hd__a31oi_1	Y	out	$abc$320$Result[3]
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$342	sky130_fd_sc_hd__nand4_1	A	in	\Negation
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$342	sky130_fd_sc_hd__nand4_1	B	in	\Shift
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$342	sky130_fd_sc_hd__nand4_1	C	in	\Multiplicant [3]
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$342	sky130_fd_sc_hd__nand4_1	D	in	$abc$320$new_n20
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$342	sky130_fd_sc_hd__nand4_1	Y	out	$abc$320$new_n34
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$343	sky130_fd_sc_hd__nor2_1	A	in	\Negation
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$343	sky130_fd_sc_hd__nor2_1	B	in	\Multiplicant [3]
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$343	sky130_fd_sc_hd__nor2_1	Y	out	$abc$320$new_n35
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$344	sky130_fd_sc_hd__nor3_1	A	in	\Zero
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$344	sky130_fd_sc_hd__nor3_1	B	in	$abc$320$new_n15
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$344	sky130_fd_sc_hd__nor3_1	C	in	$abc$320$new_n35
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$344	sky130_fd_sc_hd__nor3_1	Y	out	$abc$320$new_n36
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$345	sky130_fd_sc_hd__and3_1	A	in	$abc$320$new_n28
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$345	sky130_fd_sc_hd__and3_1	B	in	$abc$320$new_n34
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$345	sky130_fd_sc_hd__and3_1	C	in	$abc$320$new_n36
+Multiplier_Sub_Module	$abc$320$auto$blifparse.cc:396:parse_blif$345	sky130_fd_sc_hd__and3_1	X	out	$abc$320$Result[4]

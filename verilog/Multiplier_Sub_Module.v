@@ -1,7 +1,7 @@
 `timescale 1ns / 1ns
 // `include "Booth_Radix_Table"
 
-module Multiplier_Sub_Module #(parameter Data_Width = 4)(
+module Multiplier_Sub_Module #(parameter Data_Width = 8)(
     input  [Data_Width-1:0] Multiplicant,
     input Shift,Negation,Zero,
     output reg [Data_Width:0] Result

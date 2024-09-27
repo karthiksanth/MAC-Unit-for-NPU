@@ -5,8 +5,11 @@ module Booth_Radix_Table (
     output wire Shift,
     Negation,Zero
 );
-  assign Zero = In[2] ?In[1] & In[0]: !(In[1] | In[0]);
-  assign Shift = In[2] ? !(In[1] | In[0]) : In[1] & In[0];
+  // assign Zero = In[2] ?In[1] & In[0]: !(In[1] | In[0]);
+  // assign Shift = In[2] ? !(In[1] | In[0]) : In[1] & In[0];
+  // assign Negation = In[2] & !(In[1] & In[0]);
+  assign Zero = In[2] & In[1] & In[0] | (!In[2] & !(In[1] | In[0]));
+  assign Shift = In[2] & !(In[1] | In[0]) | (!In[2] & In[1] & In[0]);
   assign Negation = In[2] & !(In[1] & In[0]);
 endmodule  //Booth_Radix_Table
 
