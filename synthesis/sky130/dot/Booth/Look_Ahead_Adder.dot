@@ -1,4 +1,5 @@
 digraph "Look_Ahead_Adder" {
+label="Look_Ahead_Adder";
 rankdir="LR";
 remincross=true;
 n46 [ shape=octagon, label="a", color="black", fontcolor="black"];
@@ -146,6 +147,7 @@ x21:s0:e -> n59:w [colorscheme="dark28", color="7", fontcolor="7", label=""];
 x22:s0:e -> n59:w [colorscheme="dark28", color="7", fontcolor="7", label=""];
 }
 digraph "ha" {
+label="ha";
 rankdir="LR";
 remincross=true;
 n5 [ shape=octagon, label="a", color="black", fontcolor="black"];

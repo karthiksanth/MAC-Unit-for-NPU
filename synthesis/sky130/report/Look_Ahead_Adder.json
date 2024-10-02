@@ -1,0 +1,70 @@
+{
+   "creator": "Yosys 0.42+2 (git sha1 82783646e, g++ 13.2.0-23ubuntu4 -fPIC -Os)",
+   "invocation": "stat -liberty \"lib/sky130.lib\" -json ",
+   "modules": {
+      "\\Look_Ahead_Adder": {
+         "num_wires":         59,
+         "num_wire_bits":     68,
+         "num_pub_wires":     14,
+         "num_pub_wire_bits": 23,
+         "num_ports":         5,
+         "num_port_bits":     14,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         15,
+         "area":              80.076800,
+         "num_cells_by_type": {
+            "ha": 4,
+            "sky130_fd_sc_hd__a21o_1": 2,
+            "sky130_fd_sc_hd__a21oi_1": 2,
+            "sky130_fd_sc_hd__a31o_1": 1,
+            "sky130_fd_sc_hd__clkinv_1": 1,
+            "sky130_fd_sc_hd__o21bai_1": 1,
+            "sky130_fd_sc_hd__xnor2_1": 2,
+            "sky130_fd_sc_hd__xor2_1": 2
+         }
+      },
+      "\\ha": {
+         "num_wires":         8,
+         "num_wire_bits":     8,
+         "num_pub_wires":     4,
+         "num_pub_wire_bits": 4,
+         "num_ports":         4,
+         "num_port_bits":     4,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         2,
+         "area":              15.014400,
+         "num_cells_by_type": {
+            "sky130_fd_sc_hd__and2_0": 1,
+            "sky130_fd_sc_hd__xor2_1": 1
+         }
+      }
+   },
+      "design": {
+         "num_wires":         91,
+         "num_wire_bits":     100,
+         "num_pub_wires":     30,
+         "num_pub_wire_bits": 39,
+         "num_ports":         21,
+         "num_port_bits":     30,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         19,
+         "area":              140.134400,
+         "num_cells_by_type": {
+            "sky130_fd_sc_hd__a21o_1": 2,
+            "sky130_fd_sc_hd__a21oi_1": 2,
+            "sky130_fd_sc_hd__a31o_1": 1,
+            "sky130_fd_sc_hd__and2_0": 4,
+            "sky130_fd_sc_hd__clkinv_1": 1,
+            "sky130_fd_sc_hd__o21bai_1": 1,
+            "sky130_fd_sc_hd__xnor2_1": 2,
+            "sky130_fd_sc_hd__xor2_1": 6
+         }
+      }
+}
+
