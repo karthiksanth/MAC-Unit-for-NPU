@@ -1,0 +1,313 @@
+{
+   "creator": "Yosys 0.42+2 (git sha1 82783646e, g++ 13.2.0-23ubuntu4 -fPIC -Os)",
+   "invocation": "stat -liberty \"lib/sky130.lib\" -json ",
+   "modules": {
+      "\\Carry_Look_Ahead_Adder": {
+         "num_wires":         52,
+         "num_wire_bits":     68,
+         "num_pub_wires":     4,
+         "num_pub_wire_bits": 20,
+         "num_ports":         3,
+         "num_port_bits":     15,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         15,
+         "area":              112.608000,
+         "num_cells_by_type": {
+            "sky130_fd_sc_hd__maj3_1": 2,
+            "sky130_fd_sc_hd__nand2_1": 2,
+            "sky130_fd_sc_hd__nor2_1": 1,
+            "sky130_fd_sc_hd__nor2b_1": 1,
+            "sky130_fd_sc_hd__o21ai_0": 1,
+            "sky130_fd_sc_hd__xnor2_1": 7,
+            "sky130_fd_sc_hd__xor2_1": 1
+         }
+      },
+      "\\Full_Adder": {
+         "num_wires":         13,
+         "num_wire_bits":     13,
+         "num_pub_wires":     5,
+         "num_pub_wire_bits": 5,
+         "num_ports":         5,
+         "num_port_bits":     5,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         2,
+         "area":              33.782400,
+         "num_cells_by_type": {
+            "sky130_fd_sc_hd__maj3_1": 1,
+            "sky130_fd_sc_hd__xor3_1": 1
+         }
+      },
+      "\\Half_Adder": {
+         "num_wires":         8,
+         "num_wire_bits":     8,
+         "num_pub_wires":     4,
+         "num_pub_wire_bits": 4,
+         "num_ports":         4,
+         "num_port_bits":     4,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         2,
+         "area":              15.014400,
+         "num_cells_by_type": {
+            "sky130_fd_sc_hd__and2_0": 1,
+            "sky130_fd_sc_hd__xor2_1": 1
+         }
+      },
+      "\\Increment": {
+         "num_wires":         15,
+         "num_wire_bits":     19,
+         "num_pub_wires":     4,
+         "num_pub_wire_bits": 8,
+         "num_ports":         3,
+         "num_port_bits":     7,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         5,
+         "area":              35.033600,
+         "num_cells_by_type": {
+            "sky130_fd_sc_hd__nand2_1": 1,
+            "sky130_fd_sc_hd__nand3_1": 1,
+            "sky130_fd_sc_hd__xnor2_1": 2,
+            "sky130_fd_sc_hd__xor2_1": 1
+         }
+      },
+      "\\Look_Ahead_Adder": {
+         "num_wires":         63,
+         "num_wire_bits":     72,
+         "num_pub_wires":     14,
+         "num_pub_wire_bits": 23,
+         "num_ports":         5,
+         "num_port_bits":     14,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         17,
+         "area":              90.086400,
+         "num_cells_by_type": {
+            "ha": 4,
+            "sky130_fd_sc_hd__a21boi_0": 1,
+            "sky130_fd_sc_hd__a21oi_1": 2,
+            "sky130_fd_sc_hd__and3_1": 1,
+            "sky130_fd_sc_hd__clkinv_1": 1,
+            "sky130_fd_sc_hd__nand3_1": 1,
+            "sky130_fd_sc_hd__nand4_1": 1,
+            "sky130_fd_sc_hd__o21bai_1": 1,
+            "sky130_fd_sc_hd__or3b_1": 1,
+            "sky130_fd_sc_hd__xnor2_1": 2,
+            "sky130_fd_sc_hd__xor2_1": 2
+         }
+      },
+      "\\Look_Ahead_Adder_No_Cin": {
+         "num_wires":         42,
+         "num_wire_bits":     51,
+         "num_pub_wires":     14,
+         "num_pub_wire_bits": 23,
+         "num_ports":         4,
+         "num_port_bits":     13,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         11,
+         "area":              50.048000,
+         "num_cells_by_type": {
+            "ha": 4,
+            "sky130_fd_sc_hd__a21o_1": 1,
+            "sky130_fd_sc_hd__a21oi_1": 1,
+            "sky130_fd_sc_hd__clkinv_1": 1,
+            "sky130_fd_sc_hd__o21bai_1": 1,
+            "sky130_fd_sc_hd__xnor2_1": 1,
+            "sky130_fd_sc_hd__xor2_1": 2
+         }
+      },
+      "\\M4_Carry_Look_Ahead_Adder": {
+         "num_wires":         49,
+         "num_wire_bits":     64,
+         "num_pub_wires":     4,
+         "num_pub_wire_bits": 19,
+         "num_ports":         3,
+         "num_port_bits":     14,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         14,
+         "area":              103.849600,
+         "num_cells_by_type": {
+            "sky130_fd_sc_hd__maj3_1": 2,
+            "sky130_fd_sc_hd__nand2_1": 2,
+            "sky130_fd_sc_hd__nor2_1": 1,
+            "sky130_fd_sc_hd__nor2b_1": 1,
+            "sky130_fd_sc_hd__o21ai_0": 1,
+            "sky130_fd_sc_hd__xnor2_1": 5,
+            "sky130_fd_sc_hd__xor2_1": 2
+         }
+      },
+      "\\M_4x4_1": {
+         "num_wires":         47,
+         "num_wire_bits":     74,
+         "num_pub_wires":     23,
+         "num_pub_wire_bits": 50,
+         "num_ports":         3,
+         "num_port_bits":     16,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         27,
+         "area":              100.096000,
+         "num_cells_by_type": {
+            "Full_Adder": 4,
+            "Half_Adder": 6,
+            "M4_Carry_Look_Ahead_Adder": 1,
+            "sky130_fd_sc_hd__and2_0": 16
+         }
+      },
+      "\\M_4x4_2": {
+         "num_wires":         42,
+         "num_wire_bits":     84,
+         "num_pub_wires":     9,
+         "num_pub_wire_bits": 51,
+         "num_ports":         4,
+         "num_port_bits":     17,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         31,
+         "area":              125.120000,
+         "num_cells_by_type": {
+            "Full_Adder": 4,
+            "Half_Adder": 6,
+            "M4_Carry_Look_Ahead_Adder": 1,
+            "sky130_fd_sc_hd__and2_0": 12,
+            "sky130_fd_sc_hd__nand2_1": 4,
+            "sky130_fd_sc_hd__xnor2_1": 4
+         }
+      },
+      "\\M_4x4_3": {
+         "num_wires":         44,
+         "num_wire_bits":     88,
+         "num_pub_wires":     10,
+         "num_pub_wire_bits": 54,
+         "num_ports":         4,
+         "num_port_bits":     17,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         33,
+         "area":              121.366400,
+         "num_cells_by_type": {
+            "Full_Adder": 6,
+            "Half_Adder": 5,
+            "M4_Carry_Look_Ahead_Adder": 1,
+            "sky130_fd_sc_hd__a21oi_1": 4,
+            "sky130_fd_sc_hd__and2_0": 13,
+            "sky130_fd_sc_hd__o21ai_0": 4
+         }
+      },
+      "\\M_4x4_4": {
+         "num_wires":         69,
+         "num_wire_bits":     102,
+         "num_pub_wires":     28,
+         "num_pub_wire_bits": 61,
+         "num_ports":         5,
+         "num_port_bits":     18,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         36,
+         "area":              147.641600,
+         "num_cells_by_type": {
+            "Carry_Look_Ahead_Adder": 1,
+            "Full_Adder": 6,
+            "Half_Adder": 5,
+            "sky130_fd_sc_hd__a21oi_1": 3,
+            "sky130_fd_sc_hd__and2_0": 10,
+            "sky130_fd_sc_hd__and3_1": 1,
+            "sky130_fd_sc_hd__mux2_1": 1,
+            "sky130_fd_sc_hd__nand2_1": 3,
+            "sky130_fd_sc_hd__o21ai_0": 3,
+            "sky130_fd_sc_hd__xnor2_1": 3
+         }
+      },
+      "\\Multiplier_8x8": {
+         "num_wires":         91,
+         "num_wire_bits":     180,
+         "num_pub_wires":     11,
+         "num_pub_wire_bits": 100,
+         "num_ports":         5,
+         "num_port_bits":     34,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         23,
+         "area":              270.259200,
+         "num_cells_by_type": {
+            "Increment": 1,
+            "Look_Ahead_Adder": 1,
+            "Look_Ahead_Adder_No_Cin": 1,
+            "M_4x4_1": 1,
+            "M_4x4_2": 1,
+            "M_4x4_3": 1,
+            "M_4x4_4": 1,
+            "sky130_fd_sc_hd__maj3_1": 8,
+            "sky130_fd_sc_hd__xor3_1": 8
+         }
+      },
+      "\\ha": {
+         "num_wires":         8,
+         "num_wire_bits":     8,
+         "num_pub_wires":     4,
+         "num_pub_wire_bits": 4,
+         "num_ports":         4,
+         "num_port_bits":     4,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         2,
+         "area":              15.014400,
+         "num_cells_by_type": {
+            "sky130_fd_sc_hd__and2_0": 1,
+            "sky130_fd_sc_hd__xor2_1": 1
+         }
+      }
+   },
+      "design": {
+         "num_wires":         1112,
+         "num_wire_bits":     1430,
+         "num_pub_wires":     349,
+         "num_pub_wire_bits": 667,
+         "num_ports":         265,
+         "num_port_bits":     413,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         279,
+         "area":              2489.888000,
+         "num_cells_by_type": {
+            "sky130_fd_sc_hd__a21boi_0": 1,
+            "sky130_fd_sc_hd__a21o_1": 1,
+            "sky130_fd_sc_hd__a21oi_1": 10,
+            "sky130_fd_sc_hd__and2_0": 81,
+            "sky130_fd_sc_hd__and3_1": 2,
+            "sky130_fd_sc_hd__clkinv_1": 2,
+            "sky130_fd_sc_hd__maj3_1": 36,
+            "sky130_fd_sc_hd__mux2_1": 1,
+            "sky130_fd_sc_hd__nand2_1": 16,
+            "sky130_fd_sc_hd__nand3_1": 2,
+            "sky130_fd_sc_hd__nand4_1": 1,
+            "sky130_fd_sc_hd__nor2_1": 4,
+            "sky130_fd_sc_hd__nor2b_1": 4,
+            "sky130_fd_sc_hd__o21ai_0": 11,
+            "sky130_fd_sc_hd__o21bai_1": 2,
+            "sky130_fd_sc_hd__or3b_1": 1,
+            "sky130_fd_sc_hd__xnor2_1": 34,
+            "sky130_fd_sc_hd__xor2_1": 42,
+            "sky130_fd_sc_hd__xor3_1": 28
+         }
+      }
+}
+

@@ -448,7 +448,6 @@ module Multiplier_8x8 (
                                   .B(Cout_R123[3:0]),
                                   .S(Sum_R123_1[3:0]),
                                   .Cout(Cout[0]));
-
     Look_Ahead_Adder CLA_2(.A(Cout_R123[7:4]),
                            .B({Partial_Product[3][4],Sum_R123[7:5]}),
                            .Cin(Cout[0]),
